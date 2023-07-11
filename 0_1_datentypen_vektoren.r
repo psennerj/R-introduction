@@ -30,7 +30,7 @@ typeof(v)
 
 str(v)
 
-# Einfache komplexe Zahl.
+# Einfache komplexe Zahl
 complex_value <- 3 + 2i
 complex_value
 
