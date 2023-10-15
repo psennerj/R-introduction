@@ -28,7 +28,7 @@ l <- list(m1 = matrix(1:9, 3),
 l[1]
 l[2]
 
-#calculate the mean of both matrices by using a for loop (note: you have to initialize the otputvector)
+#calculate the mean of both matrices by using a for loop (note: you have to initialize the outputvector)
 
 res <- 0
 for(i in 1:2){

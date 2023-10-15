@@ -26,7 +26,7 @@ l <- list(m1 = matrix(1:9, 3),
 #have a look at both matrices
 
 
-#calculate the mean of both matrices by using a for loop (note: you have to initialize the otputvector)
+#calculate the mean of both matrices by using a for loop (note: you have to initialize the outputvector)
 
 
 

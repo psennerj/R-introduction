@@ -1,7 +1,8 @@
+# browser() in nested functions
 
 # Function 1
 function_1 <- function(a){
-  browser()
+  #browser()
   a + 5
 }
 
@@ -12,12 +13,15 @@ function_2 <- function(b) {
 
 function_2("s")
 
+
+# browser() in loops
+
 vec = c()
-n=1
+x=1
 for (i in 1:10) {
   j= i^2
-  n=n+1
-  vec[i] = n
+  x=x+1
+  vec[i] = x
   if (i == 3) {
     browser()
   }
